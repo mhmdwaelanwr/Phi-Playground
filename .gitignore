@@ -1,0 +1,17 @@
+.gradle/
+.kotlin/
+.idea/
+**/build/
+local.properties
+
+.env
+.env.*
+!.env.example
+
+*.jks
+*.keystore
+*.p12
+*.pfx
+
+.DS_Store
+Thumbs.db
