@@ -13,5 +13,18 @@ local.properties
 *.p12
 *.pfx
 
+# Large/local model artifacts
+*.gguf
+*.onnx
+*.ort
+*.tflite
+*.safetensors
+models/
+model-cache/
+
+# Logs / captures
+*.log
+captures/
+
 .DS_Store
 Thumbs.db
